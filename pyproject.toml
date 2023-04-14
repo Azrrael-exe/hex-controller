@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hex-controller"
+version = "0.1.0"
+description = "Controller to handle a Motel light from and Http API"
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.95.1"
+pydantic = "^1.10.7"
+uvicorn = "^0.21.1"
+pyserial = "^3.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
